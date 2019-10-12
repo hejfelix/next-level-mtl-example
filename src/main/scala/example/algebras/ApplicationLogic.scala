@@ -1,13 +1,8 @@
 package example.algebras
 
-import cats.Functor
-import cats.mtl.instances.all._
-import cats.mtl.syntax.all._
 import cats.implicits._
-import cats._
 import cats.effect.Sync
 import cats.mtl.MonadState
-import com.olegpy.meow.effects._
 import com.olegpy.meow.hierarchy._
 import example.MyObjectGraph
 
